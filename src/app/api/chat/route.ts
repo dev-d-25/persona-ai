@@ -4,14 +4,12 @@ import fs from 'fs';
 import path from 'path';
 import dotenv from 'dotenv';
 
-// Load environment variables from root folder
-dotenv.config({ path: path.join(process.cwd(), '.env') });
 
 // Also load from system environment variables as fallback
 dotenv.config();
 
 const openai = new OpenAI({
-  baseURL: "https://openrouter.ai/api/v1",
+  baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/",
   apiKey: process.env.OPENAI_API_KEY,
 });
 
