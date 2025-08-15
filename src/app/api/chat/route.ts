@@ -88,7 +88,7 @@ export async function POST(request: NextRequest) {
     }
     
     const response = await openai.chat.completions.create({
-      model: "openai/gpt-oss-20b:free",
+      model: "gemini-2.5-flash",
       messages: [
         {
           role: "system",
