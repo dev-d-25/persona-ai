@@ -25,7 +25,7 @@ export function ChatSidebar({ onPersonaSelect, selectedPersona }: ChatSidebarPro
       name: "Hitesh Choudhary",
       role: "Tech Educator",
       avatar: "HC",
-      imageUrl: "https://i.ibb.co/HffNJ0bz/hiteshsir-400x400.jpg",
+      imageUrl: "/hiteshsir_400x400.jpg",
       isActive: true,
     },
     {
@@ -33,7 +33,7 @@ export function ChatSidebar({ onPersonaSelect, selectedPersona }: ChatSidebarPro
       name: "Piyush Garg",
       role: "Tech Mentor",
       avatar: "PG",
-      imageUrl: "https://i.ibb.co/FbZ1X3Cs/piyush-sir-400x400.jpg",
+      imageUrl: "/piyush%20sir_400x400.jpg",
       isActive: true,
     },
   ]);
